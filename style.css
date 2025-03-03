@@ -1,0 +1,408 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+#sideMenu{
+    z-index: 2;
+}
+.top-bar{
+    background: red;
+    width: 100%;
+    height: auto;
+}
+.school-header-menu{
+    width: 100%;
+    height: auto;
+
+}
+.kids-school-logo{
+    width: 110px;
+}
+
+/* Style for the navbar */
+.kids-school-navbar {
+    position: relative;
+    padding-top: 50px;
+}
+
+/* Hide the side menu by default */
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    color: white;
+    transition: right 0.3s ease-in-out;
+    padding-top: 60px;
+}
+
+.side-menu a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.side-menu a:hover {
+    background-color: #575757;
+}
+
+.side-menu .close-btn {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Show the menu when it's open */
+.side-menu.open {
+    right: 0;
+}
+
+/* Style for the hamburger button */
+.hamburger-btn {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF1E6;
+}
+
+.about-section {
+    position: relative;
+    padding: 50px;
+    text-align: center;
+    background: #FFF1E6;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #ffa726;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text-content {
+    max-width: 500px;
+    text-align: left;
+}
+
+.about-title {
+    color: #e91e63;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+}
+
+.description {
+    color: #555;
+    font-size: 16px;
+}
+
+.read-more {
+    background: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.read-more:hover {
+    background: #d81b60;
+}
+
+.decorative-wave {
+    width: 100%;
+    height: 20px;
+    background: url('wave-pattern.png') repeat-x;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.rocket-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 40px;
+}
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.floating-image {
+    animation: floatAnimation 3s ease-in-out infinite;
+    width: 100px;
+}
+.education-section{
+    background: #FFF1E6;
+}
+.abacus-image{
+    width: 100px;
+}
+.card-custom {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.01s ease, background 0.5s ease-in-out 0.01s; /* Delay background change */
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    background: #e91e63;
+}
+
+.image-container {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #035f5f;
+    margin-top: 15px;
+}
+
+.description {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.learn-more::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: orange;
+    border-radius: 10px;
+    margin-top: 2px;
+    transform: scaleX(1);
+    transition: transform 0.3s ease;
+}
+
+.learn-more:hover::after {
+    transform: scaleX(1.2);
+}
+.education-cards{
+    background: #FFF1E6;
+}
+
+.creative-learning-section {
+    padding: 60px 0;
+}
+
+.text-content {
+    padding-right: 30px;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-title img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.highlight-text {
+    color: #e91e63;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.learning-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
+
+.learning-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.creative-btn {
+    background: #e91e63;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.creative-btn:hover {
+    background: #c2185b;
+}
+
+.image-one {
+    transform: translateY(10px);
+}
+
+.image-two {
+    transform: translateY(-10px);
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .image-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .image-container img {
+        width: 100%;
+    }
+}
+.edu-card-container {
+    position: relative;
+    background-color: #0f5b66; /* Dark teal */
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.edu-card-shape {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.edu-card-shape img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 95%, 15% 95%);
+}
+
+.edu-card-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.edu-card-divider {
+    width: 80px;
+    height: 3px;
+    background: white;
+    margin: 10px auto;
+}
+
+.edu-card-text {
+    font-size: 14px;
+    padding: 0 15px;
+}
+
+.edu-card-btn {
+    background-color: #f5365c;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    transition: 0.3s;
+    position: relative;
+    bottom: -20px;
+}
+
+.edu-card-btn:hover {
+    background-color: #d12a4b;
+}
+
+.edu-card-icon {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    width: 50px;
+}
+
+.edu-card-icon-right {
+    left: auto;
+    right: 10px;
+}
